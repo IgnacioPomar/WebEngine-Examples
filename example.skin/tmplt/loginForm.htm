@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Example login</title>
+<link rel="icon" href="@@skinPath@@img/favicon.svg" />
+
+<link rel="stylesheet" href="@@skinPath@@css/login.css" />
+
+</head>
+<body>
+	<div class="loginbox">
+		<div class="logo">
+			<img src="@@skinPath@@img/logo.svg" alt="Logo" />
+		</div>
+		<div class="form">
+			<form method="post">
+				<div>
+					<img src="@@skinPath@@img/user.svg" class="inputIcon"/>
+					<input type='email' id='user' name='user' required='required' value='' placeholder='Email' autocomplete="username"/>
+				</div>
+				<div>
+					<img src="@@skinPath@@img/padlock.svg" class="inputIcon"/>
+					<input type='password' id='password' name='password' required='required' value='' placeholder='Password' autocomplete="current-password"/>
+				</div>
+				<input type='submit' value='Iniciar sesi&oacute;n' />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

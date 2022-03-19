@@ -1,0 +1,2 @@
+Icons from Monochrome KDE icon theme
+loginBackground from https://store.kde.org/p/1549218/
