@@ -1,0 +1,8 @@
+{
+    "tablename":"otherSchemaTable", "fixedSchema":"github_Example_Fix",
+    "fields": {
+        "fldId": {"type":"auto", "formType":"hidden"},
+        "name":  {"type":"string", "lenght":30, "label":"Nombre"}
+        },
+        "indexes": [{"fields":["fldId"],"primary":true}]
+}

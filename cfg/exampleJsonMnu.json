@@ -1,0 +1,10 @@
+[
+	{"opc": "/","plg": "HelloWorld","name": "home","show": false,"tmplt": "skel.htm"},
+	{"name": "Configuration","show": true,"subOpcs":[
+		{"opc": "/config","plg": "PersmissionsAndParameters","name": "ConfigOne","show": true,"tmplt": "skel.htm"},
+		{"opc": "/config/two","plg": "PersmissionsAndParameters","name": "ConfigTwo","show": true,"tmplt": "skel.htm"}	]},
+		
+	{"opc": "/SkinUse","plg": "SkinUse","name": "Skin Use","show": true,"tmplt": "skel.htm"},
+	{"opc": "/db/autoform","plg": "ExAutoForm","name": "Autoform Example","show": true,"tmplt": "skel.htm"},
+	{"opc": "/db/ColumnFormatter","plg": "ExColumnFormatter","name": "Column Formatter","show": true,"tmplt": "skel.htm"}
+]

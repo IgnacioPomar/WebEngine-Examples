@@ -1,0 +1,17 @@
+{
+    "tablename":"ownTable",
+    "fields": {
+        "fldId": {"type":"auto", "formType":"hidden"},
+        "fld1":  {"type":"int", "label":"form Name"},
+        "fld2":  {"type":"int", "label":"xxx", "formType":"combo@ExAutoForm::comboDta"},
+        "fld3":  {"type":"int", "label":"yyy", "defaultValue":100},
+        "fld4":  {"type":"double", "label":"xxx"},
+        "fld5":  {"type":"date", "formType":"date", "label":"Any Date"},
+        "fld6":  {"type":"datetime"},
+        "fld7":  {"type":"text"},
+        "fld8":  {"type":"json"},
+        "fld9":  {"type":"string", "lenght":30, "label":"Nombre"},
+        "fld0":  {"type":"string", "lenght":25, "label":"email", "formType":"email"}
+        },
+        "indexes": [{"fields":["fldId"],"primary":true},{"fields":["fld1"]}]
+}
