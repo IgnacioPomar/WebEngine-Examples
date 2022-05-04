@@ -36,6 +36,7 @@ class PersmissionsAndParameters extends Plugin
 
 		foreach ($this->perms as $permName => $permValue)
 		{
+			if ($permName === '') continue; // Is the Menu node itself
 			$val = $permValue ? 'true' : 'false';
 			$retVal .= "<p><b>$permName</b>: $val</p>";
 		}
